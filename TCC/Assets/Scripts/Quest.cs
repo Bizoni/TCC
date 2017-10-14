@@ -21,15 +21,16 @@ public abstract class Quest : MonoBehaviour {
 
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    void Update() {
+
+    }
 
     // Vai receber uma referência para a quest atual e através de um switch case retornar a próxima quest.
+    /*
     void NextQuest()
     {
         
-    }
+    }*/
 }

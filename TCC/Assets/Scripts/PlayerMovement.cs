@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D body;
     Animator anim;
     List<Quest> questCurr;
-    //public Text title;
     bool questTest = false;
 
 	// Use this for initialization
@@ -16,7 +15,6 @@ public class PlayerMovement : MonoBehaviour {
 
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        //title.text = "";
 		
 	}
 	
@@ -49,7 +47,7 @@ public class PlayerMovement : MonoBehaviour {
             Quests.Getmushrooms();
             questTest = true;
             questCurr = Quest.GetQuests();
-            Debug.Log(questCurr[questCurr.Count - 1].GetTitle());
+            QuestDisplay.DisplayQuest(questCurr);
             
         }
     }
