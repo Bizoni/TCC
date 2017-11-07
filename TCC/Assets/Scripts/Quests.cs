@@ -17,7 +17,7 @@ public class Quests : Quest
     // Use this for initialization
     void Start()
     {
-
+        questList = default(List<Quest>);
     }
 
     // Update is called once per frame
@@ -40,4 +40,8 @@ public class Quests : Quest
         description = "vai lá na floresta e pega os cogumelos!";
         questList.Add(new Quests(title, description, objective));
     }
+    /*public static void DeclineQuest(List<Quest> currentQuest)
+    {
+        currentQuest.RemoveAt(currentQuest.Count - 1);
+    }*/
 }
