@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class QuestDisplay : MonoBehaviour {
 
-    // TODO: Criar uma funcao de prompt quest que vai mostrar os botoes, essa funcai vai ser a responsavel por setar uma outra variavel que
-    // vai controlar se eu tenho uma quest ativa ou nao, para poder ser mostrado quando aperto o q (quest log). essa variavel vai fazer o
-    // controle se o personagem tem quest no momento ou nao!
+    // TODO: Resolver os bugs: Apertar o Q durante o promptQeust e declinar a quest mais de 1 vez
     public static bool haveQuest;
     public static Text qTitle;
     public static Text qDescription;
