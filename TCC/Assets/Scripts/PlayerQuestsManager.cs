@@ -70,4 +70,9 @@ public class PlayerQuestsManager : MonoBehaviour {
 
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(transform.gameObject);
+    }
+
 }

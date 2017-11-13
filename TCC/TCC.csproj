@@ -78,6 +78,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DoorManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerInitialPos.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerQuestsManager.cs" />
     <Compile Include="Assets\Scripts\Quest.cs" />
